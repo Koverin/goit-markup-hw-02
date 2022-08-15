@@ -3,6 +3,10 @@
     color: #212121;
 }
 
+ul {
+    list-style: none;
+}
+
 .logo-link {
     color: #2196F3;
 }
