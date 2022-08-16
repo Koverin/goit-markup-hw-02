@@ -1,16 +1,26 @@
-.page {
+body {
     background-color: #FFFFFF;
     color: #212121;
+    font-family: 'Roboto';
 }
 
-.nav-list {
+ul {
     list-style: none;
 }
 
-.logo-link {
+.logo-link{
     color: #2196F3;
 }
 
 .logo-link-text {
     color: #000000;
+}
+
+.link:hover,
+.link:focus {
+    color: #2196F3;
+}
+
+.link {
+    color: #212121;
 }
