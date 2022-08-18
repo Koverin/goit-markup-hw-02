@@ -3,6 +3,7 @@
     --subtext-color: #757575;
     --additional-cl: #2196F3;
     --headfooter-bg-cl: #2F303A;
+    --main-bg-cl: #FFFFFF;
 }
 
 body {
@@ -218,10 +219,16 @@ body {
     background-color: var(--headfooter-bg-cl);
 }
 
+/* portfolio.html */
 
+.list .link.carrent {
+    color: var(--additional-cl);
+}
 
-
-
+.section-port,
+.section-proj {
+    background-color: var(--main-bg-cl);
+}
 
 
 
